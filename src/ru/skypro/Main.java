@@ -13,6 +13,8 @@ public class Main {
                 secondAuthor.getAuthorFirstName() + " " + secondAuthor.getAuthorSecondName(),
                 2001);
 //        Проверка что сеттеры и геттеры работают как необходимо:
+        firstBook.setPublishYear(2020);
+        System.out.println("firstBook.getPublishYear() = " + firstBook.getPublishYear());
         System.out.println("secondBook.getAuthor() = " + secondBook.getAuthor());
         secondAuthor.setAuthorFirstName("Константин");
         System.out.println("secondAuthor.getAuthorFirstName() = " + secondAuthor.getAuthorFirstName());
